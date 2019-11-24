@@ -1,0 +1,26 @@
+.mainbox{
+    background-color: coral;
+    width: 800px;
+    margin: 0px auto;
+}
+.menu{
+    background-color: brown;
+}
+.leftside{
+    background-color: darkgreen;
+    width: 100px;
+    float: left;
+}
+.main{
+    background-color:  darkkhaki;
+    width: 600px;
+    float: left;
+}
+.rightside{
+    background-color: aliceblue;
+    width: 100px;
+    float: left;
+}
+.footer{
+    background-color: cadetblue;
+}
