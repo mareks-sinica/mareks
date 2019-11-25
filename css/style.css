@@ -24,3 +24,16 @@
 .footer{
     background-color: cadetblue;
 }
+.menu{
+    height: 37px;
+    text-align: center;
+}
+.menu>ul>li{
+    display: inline;
+    padding: 10px 10px 10px 10px;
+    background-color: aquamarine;
+    position: relative;
+    top: 8px;
+    font-family: Tahoma, Serif;
+    font-size: 15px;
+}
