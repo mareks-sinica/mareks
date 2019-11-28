@@ -1,0 +1,60 @@
+.MainBox {
+    background-color: darkkhaki;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.top {
+    width: 800px;
+    height: 100px;
+    background-color: darkslateblue;
+    text-align: center;
+}
+
+.top>img {
+    float: right;
+    max-width: 75px;
+    margin: 10px;
+}
+
+.top>h3 {
+    display: inline-block;
+    position: relative;
+    top: 12px;
+    font-family: "Palatino Linotype", serif;
+    font-size: 64px;
+}
+.main {
+    background-color: grey;
+    width: 800px;
+    height: 350px;
+    float: left;
+}
+.main img {
+    max-width: 150px;
+    transition: 1s;
+    padding: 10px;
+    margin-left: 20px;
+}
+.main img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+.footer {
+    background-color: yellow;
+    width: 800px;
+    height: 50px;
+    text-align: right;
+}
+
+.footer>ul>li {
+    display: inline;
+    padding: 5px 5px 5px 5px;
+    background-color: darkgreen;
+    position: relative;
+    top: 14px;
+    right: 5px;
+    font-family: "Palatino Linotype", serif;
+    font-size: 24px;
+}

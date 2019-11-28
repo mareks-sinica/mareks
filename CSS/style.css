@@ -1,0 +1,89 @@
+.MainBox {
+    background-color: darkkhaki;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.top {
+    width: 800px;
+    height: 100px;
+    background-color: darkslateblue;
+}
+.top>img {
+    max-width: 75px;
+    margin: 10px;
+    float: right;
+}
+.top>h3 {
+    display: inline-block;
+    position: relative;
+    top: 12px;
+    font-family: "Palatino Linotype", serif;
+    font-size: 64px;
+}
+.leftside {
+    background-color: blue;
+    width: 268px;
+    height: 250px;
+    float: left;
+}
+
+.main {
+    background-color: yellow;
+    width: 268px;
+    height: 250px;
+    float: left;
+}
+
+.rightside {
+    background-color: blue;
+    width: 264px;
+    height: 250px;
+    float: left;
+}
+.footer {
+    background-color: yellow;
+    width: 800px;
+    height: 50px;
+    text-align: left;
+}
+.leftside>ul>li {
+    display: inline;
+    padding: 10px 10px 10px 10px;
+    background-color: darkgreen;
+    position: relative;
+    top: 14px;
+    font-family: "Palatino Linotype", serif;
+    font-size: 24px;
+}
+.main>ul>li {
+    display: inline;
+    padding: 10px 10px 10px 10px;
+    background-color: darkgreen;
+    position: relative;
+    top: 14px;
+    font-family: "Palatino Linotype", serif;
+    font-size: 24px;
+}
+.rightside>ul>li {
+    display: inline;
+    padding: 10px 10px 10px 10px;
+    background-color: darkgreen;
+    position: relative;
+    top: 14px;
+    font-family: "Palatino Linotype", serif;
+    font-size: 24px;
+}
+.footer>ul>li {
+    display: inline;
+    padding: 5px 5px 5px 5px;
+    background-color: darkgreen;
+    position: relative;
+    top: 14px;
+    right: 5px;
+    font-family: "Palatino Linotype", serif;
+    font-size: 24px;
+    margin-left: 10px;
+}
